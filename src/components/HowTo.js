@@ -5,7 +5,7 @@ import gardenIcon from "../assets/imgs/garden-icon.svg";
 
 const HowTo = () => {
   return (
-    <section className="bg-green-500 text-blue-900 p-6" id="how-to">
+    <section className="bg-green-500 text-blue-900 p-12" id="how-to">
       <div className="howto-wrapper flex flex-col justify-center items-center text-2xl gap-8">
         <div className="howto-1 flex flex-col md:flex-row justify-center items-center gap-6">
           <div className="flex flex-col gap-6">
