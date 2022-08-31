@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Wip from "./components/Wip";
-import HowTo from "./components/HowTo";
-import Contact from "./components/Contact";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import Wip from "./Wip";
+import HowTo from "./HowTo";
+import Contact from "./Contact";
 
 function App() {
   return (
