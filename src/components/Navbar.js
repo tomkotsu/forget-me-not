@@ -29,12 +29,12 @@ const Navbar = () => {
               Your Garden
             </li>
           </a>
-          <a href="/#how-to">
+          <a href="#how-to">
             <li className="hover:underline hover:text-yellow-400">
               How To Use
             </li>
           </a>
-          <a href="/#contact">
+          <a href="#contact">
             <li className="hover:underline hover:text-yellow-400">Contact</li>
           </a>
         </ul>
