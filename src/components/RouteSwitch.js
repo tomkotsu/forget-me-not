@@ -1,4 +1,4 @@
-// import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import React from "react";
 import App from "./App";
 import Upload from "./Upload";

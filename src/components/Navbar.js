@@ -1,5 +1,6 @@
 import React from "react";
 import plantIcon from "../assets/imgs/robo-green.svg";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -21,7 +22,7 @@ const Navbar = () => {
         </div>
 
         <ul className="flex gap-6">
-          <Link href="/upload">
+          <Link to="/upload">
             <li className="hover:underline hover:text-yellow-400">Upload</li>
           </Link>
           <Link to="/garden">
