@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <section className="bg-blue-900 text-yellow-100 text-lg hidden lg:block p-2 shadow-md">
       <div className="nav-wrapper flex justify-evenly mx-auto items-center">
-          <div>
-          <a href="/" className="flex justify-center items-center">
+        <div>
+          <Link to="/" className="flex justify-center items-center">
             <img
               src={plantIcon}
               alt="icon of digital plant"
@@ -17,18 +17,18 @@ const Navbar = () => {
               <h1>Forget-</h1>
               <h1>ME-NOT</h1>
             </div>
-            </a>
-          </div>
+          </Link>
+        </div>
 
         <ul className="flex gap-6">
-          <a href="/upload">
+          <Link href="/upload">
             <li className="hover:underline hover:text-yellow-400">Upload</li>
-          </a>
-          <a href="/garden">
+          </Link>
+          <Link to="/garden">
             <li className="hover:underline hover:text-yellow-400">
               Your Garden
             </li>
-          </a>
+          </Link>
           <a href="#how-to">
             <li className="hover:underline hover:text-yellow-400">
               How To Use

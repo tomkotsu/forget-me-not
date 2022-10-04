@@ -6,7 +6,7 @@ import YourGarden from "./YourGarden";
 
 const RouteSwitch = () => {
   return (
-    <BrowserRouter basemname={`/${process.env.PUBLIC_URL}`}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/upload" element={<Upload />} />

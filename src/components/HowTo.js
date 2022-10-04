@@ -36,7 +36,7 @@ const HowTo = () => {
                 clicking here.
               </li>
               <li>
-                4. Receive your results, and go 'Ohhh' and smile at the flower.
+                4. Receive your results!
               </li>
               <li>
                 5. If you're signed in, you can add the flower to your garden to
