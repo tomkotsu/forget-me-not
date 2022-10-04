@@ -6,14 +6,13 @@ import YourGarden from "./YourGarden";
 
 const RouteSwitch = () => {
   return (
-    // <BrowserRouter basemname={`/${process.env.PUBLIC_URL}`}>
-    //   <Routes>
-    //     <Route path="/" element={<App />} />
-    //     <Route path="/upload" element={<Upload />} />
-    //     <Route path="/garden" element={<YourGarden />} />
-    //   </Routes>
-    // </BrowserRouter>
-    <App />
+    <BrowserRouter basemname={`/${process.env.PUBLIC_URL}`}>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/upload" element={<Upload />} />
+        <Route path="/garden" element={<YourGarden />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
